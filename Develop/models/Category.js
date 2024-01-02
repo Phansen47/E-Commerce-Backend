@@ -1,9 +1,13 @@
+// Importing Model and DataTypes from Sequelize
 const { Model, DataTypes } = require("sequelize");
 
+// Importing the Sequelize instance configured in 'connection.js'
 const sequelize = require("../config/connection.js");
 
+// Defining a new class 'Category'
 class Category extends Model {}
 
+// Initializing the Category model with its schema
 Category.init(
   {
     id: {
@@ -26,4 +30,5 @@ Category.init(
   }
 );
 
+// Exporting the Category model for use in other parts of the application
 module.exports = Category;

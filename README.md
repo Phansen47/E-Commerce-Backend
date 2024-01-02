@@ -19,6 +19,7 @@ walkthrough video link: https://drive.google.com/file/d/1SS7nc7LZoDdDVvJnSdHtcJd
 
 ## Credits
 Module 13 Activities
+Starter code: Xandromus, Georgeyoo & rxtATX on Github
 
 ## Tests
 See walkthrough video
